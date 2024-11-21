@@ -17,6 +17,10 @@
 		C177019D2CEF8D6D00442244 /* NumberGuessingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C177019C2CEF8D6D00442244 /* NumberGuessingGameTests.swift */; };
 		C17701A72CEF8D6D00442244 /* NumberGuessingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17701A62CEF8D6D00442244 /* NumberGuessingGameUITests.swift */; };
 		C17701A92CEF8D6D00442244 /* NumberGuessingGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17701A82CEF8D6D00442244 /* NumberGuessingGameUITestsLaunchTests.swift */; };
+		C17701B62CEF927800442244 /* GuessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17701B52CEF927800442244 /* GuessCell.swift */; };
+		C17701B82CEF937D00442244 /* GameTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17701B72CEF937D00442244 /* GameTypes.swift */; };
+		C17701BA2CEF964700442244 /* ComputerGuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17701B92CEF964700442244 /* ComputerGuessView.swift */; };
+		C17701BC2CEFA1FA00442244 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17701BB2CEFA1FA00442244 /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		C17701A22CEF8D6D00442244 /* NumberGuessingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberGuessingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17701A62CEF8D6D00442244 /* NumberGuessingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessingGameUITests.swift; sourceTree = "<group>"; };
 		C17701A82CEF8D6D00442244 /* NumberGuessingGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessingGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C17701B52CEF927800442244 /* GuessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessCell.swift; sourceTree = "<group>"; };
+		C17701B72CEF937D00442244 /* GameTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTypes.swift; sourceTree = "<group>"; };
+		C17701B92CEF964700442244 /* ComputerGuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerGuessView.swift; sourceTree = "<group>"; };
+		C17701BB2CEFA1FA00442244 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +112,14 @@
 				C17701822CEF8D6A00442244 /* AppDelegate.swift */,
 				C17701842CEF8D6A00442244 /* SceneDelegate.swift */,
 				C17701862CEF8D6A00442244 /* ViewController.swift */,
+				C17701B52CEF927800442244 /* GuessCell.swift */,
+				C17701B72CEF937D00442244 /* GameTypes.swift */,
+				C17701B92CEF964700442244 /* ComputerGuessView.swift */,
+				C17701BB2CEFA1FA00442244 /* IntroViewController.swift */,
 				C17701882CEF8D6A00442244 /* Main.storyboard */,
-				C177018E2CEF8D6C00442244 /* Assets.xcassets */,
 				C17701902CEF8D6C00442244 /* LaunchScreen.storyboard */,
 				C17701932CEF8D6C00442244 /* Info.plist */,
+				C177018E2CEF8D6C00442244 /* Assets.xcassets */,
 				C177018B2CEF8D6A00442244 /* NumberGuessingGame.xcdatamodeld */,
 			);
 			path = NumberGuessingGame;
@@ -264,7 +276,11 @@
 				C17701872CEF8D6A00442244 /* ViewController.swift in Sources */,
 				C17701832CEF8D6A00442244 /* AppDelegate.swift in Sources */,
 				C17701852CEF8D6A00442244 /* SceneDelegate.swift in Sources */,
+				C17701B82CEF937D00442244 /* GameTypes.swift in Sources */,
+				C17701BA2CEF964700442244 /* ComputerGuessView.swift in Sources */,
 				C177018D2CEF8D6A00442244 /* NumberGuessingGame.xcdatamodeld in Sources */,
+				C17701B62CEF927800442244 /* GuessCell.swift in Sources */,
+				C17701BC2CEFA1FA00442244 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
