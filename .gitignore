@@ -1,0 +1,10 @@
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcuserstate
+project.xcworkspace/
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
